@@ -1,7 +1,7 @@
 Summary:	X11 drivers for Poulsbo (psb) 3D acceleration
 Name:		xpsb-glx
 Version:	0.18
-Release:	5%{?dist}
+Release:	6%{?dist}
 License:	Redistributable, no modification permitted
 Group:		System Environment/Kernel
 URL:		http://ppa.launchpad.net/ubuntu-mobile/ubuntu/pool/main/x/xpsb-glx/
@@ -37,6 +37,9 @@ rm -rf %{buildroot}
 %{_libdir}/dri/*
 
 %changelog
+* Thu Oct 14 2010 Nicolas Chauvet <kwizart@gmail.com> - 0.18-6
+- Rebuilt for gcc bug
+
 * Wed Sep 30 2009 Adam Williamson <adamwill AT shaw DOT ca> - 0.18-5
 - change my email address in changelog to correct one for Fusion
 
